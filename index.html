@@ -416,7 +416,7 @@
         <!-- card section -->
         <div class="container mx-auto px-4 mt-24">
           <!-- 1st row -->
-          <div class="lg:flex justify-between gap-6">
+          <div class="lg:flex lg:justify-between gap-6">
             <div
               class="card card-compact lg:card-side lg:w-3/6 bg-base-100 border-2 border-gray-100 p-2 lg:p-6"
             >
@@ -884,8 +884,8 @@
     <footer
       class="footer p-10 bg-black text-white items-center justify-between mt-24"
     >
-      <aside class="lg:ml-40 mb-16">
-        <h1 class="text-3xl font-extrabold mb-4 mt-24">Get In Touch</h1>
+      <aside class="lg:ml-40 lg:mb-16">
+        <h1 class="text-3xl font-extrabold mb-4 lg:mt-24">Get In Touch</h1>
         <p class="mb-6 opacity-70">
           Dit amet consectetur. Condimentum <br />
           adipiscing aliquam turpis placerat dolor. <br />
@@ -902,22 +902,28 @@
           <a class="text-base opacity-70 link link-hover">(+62) 123-321-543</a>
         </div>
       </aside>
-      <nav>
-        <header class="text-xl">Company</header>
-        <a class="link link-hover text-base opacity-70">About us</a>
-        <a class="link link-hover text-base opacity-70">Leadership</a>
-        <a class="link link-hover text-base opacity-70">Carrer</a>
-        <a class="link link-hover text-base opacity-70">News & Article</a>
-        <a class="link link-hover text-base opacity-70">Legal Notice </a>
+      <nav class="flex gap-8 lg:gap-64">
+        <nav class="*:flex">
+          <header class="text-xl mb-3">Company</header>
+          <a class="link link-hover text-base opacity-70 mb-1">About us</a>
+          <a class="link link-hover text-base opacity-70 mb-1">Leadership</a>
+          <a class="link link-hover text-base opacity-70 mb-1">Carrer</a>
+          <a class="link link-hover text-base opacity-70 mb-1"
+            >News & Article</a
+          >
+          <a class="link link-hover text-base opacity-70 mb-1">Legal Notice </a>
+        </nav>
+        <nav class="*:flex">
+          <header class="text-xl mb-3">Support</header>
+          <a class="link link-hover text-base opacity-70 mb-1">Help Center</a>
+          <a class="link link-hover text-base opacity-70 mb-1">FAQ</a>
+          <a class="link link-hover text-base opacity-70 mb-1"
+            >Ticket Support</a
+          >
+          <a class="link link-hover text-base opacity-70 mb-1">Contact Us</a>
+        </nav>
       </nav>
-      <nav>
-        <header class="text-xl">Support</header>
-        <a class="link link-hover text-base opacity-70">Help Center</a>
-        <a class="link link-hover text-base opacity-70">FAQ</a>
-        <a class="link link-hover text-base opacity-70">Ticket Support</a>
-        <a class="link link-hover text-base opacity-70">Contact Us</a>
-      </nav>
-      <nav class="lg:mr-40">
+      <nav class="pl-12 lg:mr-40">
         <header class="text-xl">Services</header>
         <a class="link link-hover text-base opacity-70">Academy</a>
         <a class="link link-hover text-base opacity-70">Group Lesson</a>
